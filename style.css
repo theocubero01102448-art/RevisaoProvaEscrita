@@ -17,6 +17,20 @@
     align-items: center;
 }
 
+.menu a {
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.menu  a:hover {
+    color:red;
+}
+
+.conteudo {
+    display: flex;
+    height: 200px;
+}
+
 .navegacao {
     background-color: rgb(red, green, blue);
     display: inline-block;
@@ -24,11 +38,24 @@
     padding: 10px;
 }
 
+.navecacao ul {
+    list-style: none;
+    padding:0;
+
+}
+
+.navecacao li {
+    margin-bottom: 10px;
+}
+
+
 .secao {
     background-color: darkviolet;
+    color:blue;
 
 }
 
 .rodape {
     background-color: brown;
+    color:yellow;
 }
