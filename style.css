@@ -1,67 +1,76 @@
 * {
     margin: 0;
-    padding:0;
+    padding: 0;
 }
 
 .grupo {
     display: flex;
     flex-direction: column;
-
 }
 
 .cabecalho {
-    background-color: darkred;
-    color: black;
+    background-color: rgb(9, 219, 191);
+    color: rgb(105, 105, 3);
     padding: 10px;
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .menu a {
-    text-decoration: none;
+    color: rgb(226, 226, 226);
+    text-decoration: nome;
     margin-left: 15px;
 }
 
-.menu  a:hover {
-    color:red;
+.menu a:hover {
+    color: rgb(128, 126, 126);
 }
 
 .conteudo {
     display: flex;
-    height: 200px;
 }
 
 .navegacao {
-    background-color: rgb(red, green, blue);
-    display: inline-block;
+    background-color: rgb(161, 13, 38);
+    color: rgb(0, 134, 252);
+    display:inline-block;
     width: 30%;
-    padding: 10px;
+    padding: 10px; 
 }
 
-.navecacao ul {
-    list-style: none;
-    padding:0;
-
+.navegacao ul {
+    list-style: nome;
+    padding: 0;
 }
 
-.navecacao li {
+.navegacao li {
     margin-bottom: 10px;
 }
 
-
 .secao {
-    background-color: darkviolet;
-    color:blue;
+    background-color: rgb(5, 88, 77);
+    color: rgb(0, 255, 255);
+    display: inline-block;
+    width: 70%;
+}
 
+.secao p {
+    margin-bottom: 10px;
+}
+
+.formulario {
+    margin-bottom: 10px;
 }
 
 .rodape {
-    background-color: brown;
+    background-color: rgb(89, 112, 112);
     height: 70px;
     padding: 0 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: rgb(0, 0, 0);
 }
 
 .redes {
